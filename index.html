@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>boolean</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <script src="test.js"></script>
+  <p>
+    ROCK PAPER SCISSORS
+  </p>
+
+  <button onclick="
+      const randomNumber = Math.random();
+
+    let computerMove ='';
+
+      if (randomNumber >= 0 && randomNumber < 1 / 3) {
+        computerMove = 'rock';
+      }else if (randomNumber >= 1 / 3 && 
+      randomNumber < 2 /3) {
+        computerMove = 'paper';
+      } else if(randomNumber >= 2 / 3 && 
+      randomNumber < 1) {
+        computerMove = 'scissors';
+      }
+
+
+      let result = ''; 
+
+      if (computerMove === 'rock') {
+        result = 'tie.'
+      } else if (computerMove = 'paper') {
+        result = 'you lose';
+      }else if (computerMove = 'scissors') {
+        result = 'you win.';
+      }
+
+      alert(`You picked rock. Computer picked ${computerMove}. ${result}`);
+      ">
+    ⛰️
+  </button>
+
+  <button onclick="
+  const randomNumber = Math.random();
+
+    let computerMove ='';
+
+      if (randomNumber >= 0 && randomNumber < 1 / 3) {
+        computerMove = 'rock';
+      }else if (randomNumber >= 1 / 3 && 
+      randomNumber < 2 /3) {
+        computerMove = 'paper';
+      } else if(randomNumber >= 2 / 3 && 
+      randomNumber < 1) {
+        computerMove = 'scissors';
+      }
+
+
+      let result = ''; 
+
+      if (computerMove === 'rock') {
+        result = 'you win.'
+      } else if (computerMove = 'paper') {
+        result = 'tie';
+      }else if (computerMove = 'scissors') {
+        result = 'you lose';
+      }
+
+      alert(`You picked paper. Computer picked ${computerMove}. ${result}`);
+  ">
+   📄
+  </button>
+
+  <button onclick="
+  const randomNumber = Math.random();
+
+    let computerMove ='';
+
+      if (randomNumber >= 0 && randomNumber < 1 / 3) {
+        computerMove = 'rock';
+      }else if (randomNumber >= 1 / 3 && 
+      randomNumber < 2 /3) {
+        computerMove = 'paper';
+      } else if(randomNumber >= 2 / 3 && 
+      randomNumber < 1) {
+        computerMove = 'scissors';
+      }
+
+
+      let result = ''; 
+
+      if (computerMove === 'rock') {
+        result = 'you lose.'
+      } else if (computerMove = 'paper') {
+        result = 'you win';
+      }else if (computerMove = 'scissors') {
+        result = 'tie.';
+      }
+
+      alert(`You picked scissors . Computer picked ${computerMove}. ${result}`);
+  ">
+    ✂️
+  </button>
+
+</body>
+
+</html>
