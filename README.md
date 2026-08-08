@@ -13,3 +13,7 @@ Open the live demo and click Rock, Paper, or Scissors to play against the comput
 
 ## Live demo
 https://atamagii.github.io/rock-paper-scissors/
+## How to run locally
+1. clone the repository:
+   git clone https://github.com/ATAMAGII/rock-paper-scissors.git
+2.open `index.html` in your browser ( no installation needed - it's plain HTML/CSS/JS) 
