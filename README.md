@@ -17,3 +17,5 @@ https://atamagii.github.io/rock-paper-scissors/
 1. clone the repository:
    git clone https://github.com/ATAMAGII/rock-paper-scissors.git
 2.open `index.html` in your browser ( no installation needed - it's plain HTML/CSS/JS) 
+## AI usage
+i used claude ai to help debug some javascript bugs and to help draft a little bit part of this readme. 
