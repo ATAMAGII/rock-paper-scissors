@@ -20,4 +20,4 @@ https://atamagii.github.io/rock-paper-scissors/
 ## AI usage
 i used claude ai to help debug some javascript bugs and to help draft a little bit part of this readme. 
 ## Screenshot
-![Rock Paper Scissors gameplay](Annotation&2026-08-08&201329.png)
+![Rock Paper Scissors gameplay](Annotation%202026-08-08%20201329.png)
